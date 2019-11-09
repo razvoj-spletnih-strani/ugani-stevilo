@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="sl"> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>Igra ugani število</title>
+		<link rel="stylesheet" href="slog.css" type="text/css" />
+		<script src="ugani_stevilo.js" defer></script>
+	</head> 
+	<body>
+	<script>
+	document.write("<h1>Igra ugani število</h1>")
+	</script>
+	<p id="navodila">Prosimo vnesite začetno in končno vrednost, med katerima si naj računalnik izbere število. S klikom na gumb začni začnete igro.</p>
+	<p id="igranje">Poskusite uganiti število.</p>
+	<p id="obvestilo"></p>
+	<p id="poskus"></p>
+	<form name="generiraj" id="generiraj">
+		<label for="zacetek">Začetna vrednost</label>
+		<input type="text" id="zacetek" required><br>
+		<label for="konec">Končna vrednost</label>
+		<input type="text" id="konec" required><br>
+		<p><input type="submit" id="zacni" value="Začni"></p>
+	</form>
+
+	<form name="ugani" id="ugani">
+		<label for="stevilo">Vpišite število</label>
+		<input type="text" id="stevilo" required><br>
+		<p><input type="submit" id="preveri" value="Ugani"></p>
+	</form>
+
+	 <button type="button" id="znova">Igraj znova</button> 
+	</body> 
+</html>
