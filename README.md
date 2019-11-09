@@ -1,1 +1,1 @@
-# ugani-stevilo
+# Igra Ugani število
